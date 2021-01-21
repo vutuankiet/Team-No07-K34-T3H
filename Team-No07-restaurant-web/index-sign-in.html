@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- Import Boostrap css, js, font awesome here -->
-	<title>Master Blend</title>
+	<title>Master Blend - Sign in</title>
 	<link rel="shortcut icon" href="image/logoCofee.png" type="image/x-icon">
   	<meta charset="utf-8">
   	<link rel="stylesheet" type="text/css" href="style.css">
@@ -15,6 +15,7 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <link href="./css/style.css" rel="stylesheet">
+    <script type="text/javascript" src="index.js" ></script>
 </head>
 <body>
 <div class="bg-web">
@@ -30,20 +31,23 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto nav-change">
-					<li class="nav-item mx-2"> 
-						<a class="nav-link text-light d-inline-block" href="index.html"><b><i class="fas fa-home"></i> Home</b></a>
+					<li class="nav-item mx-2">
+						<a class="nav-link text-light d-inline-block" href="index-home.html"><b><i class="fas fa-home"></i> Home</b></a>
 					</li>
-					<li class="nav-item mx-2" >
-						<a class="nav-link text-light d-inline-block" href="services.html"><b><i class="fas fa-toolbox"></i> Services</b></a>
+					<li class="nav-item mx-2">
+						<a class="nav-link text-light d-inline-block" href="index-services.html"><b><i class="fas fa-toolbox"></i> Services</b></a>
 					</li>
-					<li class="nav-item mx-2" >
-						<a class="nav-link text-danger active d-inline-block" href="about.html"><b><i class="far fa-address-card"></i> About</b></a>
+					<li class="nav-item mx-2">
+						<a class="nav-link text-light d-inline-block" href="index-about.html"><b><i class="far fa-address-card"></i> About</b></a>
 					</li>
-					<li class="nav-item mx-2" >
+					<li class="nav-item mx-2">
 						<a class="nav-link text-light d-inline-block" href="index-menu.html"><b><i class="fas fa-cart-plus"></i> Menu</b></a>
 					</li>
 					<li class="nav-item mx-2" >
-						<a class="nav-link text-light d-inline-block" href="index-login.html"><b><i class="fas fa-sign-in-alt"></i> Sign up</b></a>
+						<a class="nav-link text-danger active d-inline-block" href="index-sign-in.html"><b><i class="fas fa-sign-in-alt"></i> Login</b></a>
+					</li>
+					<li class="nav-item mx-2" >
+						<a class="nav-link text-light d-inline-block" href="index-sign-up.html"><b><i class="fas fa-sign-in-alt"></i> Sign up</b></a>
 					</li>
 					<li class="nav-item mx-2">
 						<form class="form-inline form-group m-0" action=".">
@@ -76,7 +80,7 @@
 		    <div class="carousel-item">
 		        <img class="w-100 height-sline" src="image/bg2.png">
 				<div class="carousel-caption text-left text-sline text-sline-secon row">
-					<div class="col-12 col-sm-6 col-md-4">
+					<div class="col-12 col-sm-8 col-md-5">
 						<p class="font-family">Full Bodied</p>
 						<h1 class="font-family">BLACK GOLD</h1>
 						<h3>COFFEE BLEND<span class="text-index">TM</span></h3>
@@ -94,7 +98,7 @@
 					<button type="button" class="btn btn-outline-light btn-lg">Order Now</button>
 					<button type="button" class="btn btn-dark btn-lg">View Menu</button>
 				</div>
-		</div>
+			</div>
 		  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Previous</span>
@@ -103,110 +107,47 @@
 		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Next</span>
 		  	</a>
+		</div>
 	</div>
 </div>
-		<div class="row m-0">
-			<div class="col-12 col-sm-12 col-md-6 padding-story">
-				<img class="w-100" src="image/bg4.png" alt="">
-			</div>
-			<div class="col-12 col-sm-12 col-md-6 text-justify content-story">
-				<h2 class="text-warning font-family">Discover</h2>
-				<h2 class="text-light">OUR STORY</h2>
-				<h3 class="text-light">Coffee for me</h3>
-				<hr>
-				<p class="text-light">"Coffee offline" - A very unique Vietnamese dating. A rustic opening for me to sit together and share my own story.</p>
-				<p class="text-light">At The Coffee House, we always cherish stories and value Connect people. We wish The Coffee House will become "The Coffee House", everyone will come together and find joy, intimate sharing with quality, aroma-powered coffee.</p>
-				<p class="text-warning text-right font-family">-Cofee VietNam-</p>
-			</div>
+<div class="container-fluid bg-web">
+    <div class="row">
+        <div class="col-12 col-md-3 col-sm-3 bg-outline-light py-2">
 		</div>
-		<div class="row" style="background-image: url(image/bg2.png);">
-			<div class=" col-12 text-center" style="padding: 40px;">
-				<h1 class="text-warning font-family">Testimony</h5>
-				<h1 class="text-white">CUSTOMERS SAYS</h1>
-				<p class="text-light">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-			</div>
-			<div class="col-12 col-sm-6 col-md-3 col-lg-3 text-white nav-bg align-self-sm-end" style="padding: 20px;">
-				<p>“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small.”</p>
-				<h6 class="text-warning text-right font-family">-Bui Van Nghia-</h6>
-				<p class="text-light text-right">Designer</p>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3 text-white nav-bg align-self-sm-end"  style="padding: 20px;">
-				<p>“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.”</p>
-				<h6 class="text-warning text-right font-family">-Le Hong Ngoc-</h6>
-				<p class="text-light text-right">Designer</p>
-			</div>
-			<div class="col-12 col-sm-12 col-md-12 col-lg-3 text-white nav-bg align-self-sm-end"  style="padding: 20px;">
-				<p>“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however.”</p>
-				<h6 class="text-warning text-right font-family">-Nguyen The Vu-</h6>
-				<p class="text-light text-right">Designer</p>
-			</div>	
-			<div class="col-12 col-sm-12 col-md-6 col-lg-3 text-white nav-bg align-self-sm-end"  style="padding: 20px;">
-				<p>“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name. ”</p>
-				<h6 class="text-warning text-right font-family">-Vu Tuan Kiet-</h6>
-				<p class="text-light text-right">Designer</p>
-			</div>
-		<div class="row ourmenu-bg m-0">
-			<div class="col-12 col-sm-12 col-md-6 text-left content-background">
-				<h2 class="text-warning font-family">Discover</h2>
-				<h2 class="text-light">OUR MENU</h2>
-				<h3 class="text-light">What's special about the menu of coffee beans?</h3>
-				<hr>
-				<p class="text-light text-justify">The coffee bean is the biggest coffee brand in the world and there's a lot we can learn from them. Below, we would like to introduce the Coffee bean menu and the ways to make the menu more attractive.</p>
-				<h4 class="text-light">Building the Coffee bean menu.</h4>
-				<h5 class="text-light">Coffee bean divides its menu into important parts:</h5>
-					<div class="text-right">
-						<ul class="list-group w-40 list-group-flush text-warning font-family menu-coffee">
-					  	<li class="list-group-item bg-dark text-left">◊ Brewed Coffee</li>
-					  	<li class="list-group-item bg-dark text-left">◊ Iced Coffee</li>
-					  	<li class="list-group-item bg-dark text-left">◊ Espresso</li>
-					  	<li class="list-group-item bg-dark text-left">◊ Blended</li>
-					  	<li class="list-group-item bg-dark text-left">◊ Tazo Tea</li>
-					  	<li class="list-group-item bg-dark text-center"><a href="#">View Full Menu</a></li>
-					
+		<div class="col-12 col-md-6 col-sm-6 bg-outline-light p-4 content-background">
+			<form class="was-validated" action="#" method="POST">
+				<div class="form-row">
+					<h1 class="text-light col-12 text-center"><i class="fas fa-id-card"></i> SIGN IN <i class="fas fa-id-card"></i></h1>
+					<div class="form-group col-12">
+						<label for="userName" class="text-danger"><h6>Enter your Username:</h6></label>
+						<input id="userName" class="form-control is-valid" type="text" name="username" placeholder="First Name" required>
 					</div>
-			</div>
-			<div class="col-12 col-sm-12 col-md-6">
-				<div class="row">
-					<div class="col col-sm-6 p-0">
-						<img class="w-100 p-2" src="image/menu1.png" alt="">
+					<div class="form-group col-12">
+						<label for="password" class="text-danger"><h6>Enter your Password:</h6></label>
+						<input id="password" class="form-control is-valid" type="password" name="password" placeholder="Last Name" required>
+					</div>	
+					<div class="form-group col-12">
+						<button type="submit" class="btn btn-outline-light btn-block">SIGN IN <i class="fas fa-sign-in-alt"></i></button>
 					</div>
-					<div class="col col-sm-6 p-0">
-						<img class="w-100 p-2" src="image/menu2.png" alt="">
+					<div class="form-group col-12 text-center text-light">
+						<h6>--- OR ---</h6>
 					</div>
-					<div class="col col-sm-6 p-0">
-						<img class="w-100 p-2" src="image/menu3.png" alt="">
+					<div class="col-4">
+						<button class="btn btn-outline-light btn-block"><a href="#" class="text-info btn-block"><i class="fab fa-twitter"></i></a></button>
 					</div>
-					<div class="col col-sm-6 p-0">
-						<img class="w-100 p-2" src="image/menu4.png" alt="">
+					<div class="col-4">
+						<button class="btn btn-outline-light btn-block"><a href="#" class="text-primary btn-block"><i class="fab fa-facebook-f"></i></a></button>
+					</div>
+					<div class="col-4">
+						<button class="btn btn-outline-light btn-block"><a href="#" class="text-danger btn-block"><i class="fab fa-instagram"></i></a></button>
 					</div>
 				</div>
-			</div>
+			</form>
+		</div>
+		<div class="col-12 col-md-3 col-sm-3 bg-outline-light py-2">
 		</div>
 	</div>
-	<div class="container-fluid w-100 nav-bg text-center p-5">
-		<div class="row">
-			<div class="col col-sm-3">
-				<p><span class="text-warning border border-warning coffee-icon"><i size="20px;" class="fas fa-coffee"></i></span></p>
-				<h3 class="text-warning">100</h3>
-				<p class="text-light">Coffee Branches</p>
-			</div>
-			<div class="col col-sm-3">
-				<p><span class="text-warning border border-warning coffee-icon"><i size="20px;" class="fas fa-coffee"></i></span></p>
-				<h3 class="text-warning">85</h3>
-				<p class="text-light">Number of Awards</p>
-			</div>
-			<div class="col col-sm-3">
-				<p><span class="text-warning border border-warning coffee-icon"><i size="20px;" class="fas fa-coffee"></i></span></p>
-				<h3 class="text-warning">10,567</h3>
-				<p class="text-light">Happy Customer</p>
-			</div>
-			<div class="col col-sm-3">
-				<p><span class="text-warning border border-warning coffee-icon"><i size="20px;" class="fas fa-coffee"></i></span></p>
-				<h3 class="text-warning">900</h3>
-				<p class="text-light">Staff</p>
-			</div>
-		</div>
-	</div>
+</div>
 <footer>
 	<div class="bg-web text-light">
 		<div class="row m-0 p-2">
