@@ -1,0 +1,115 @@
+.font-family {
+	font-family: 'Dancing Script', cursive;
+}
+.nav-bg {
+    background-color: #000000c2!important;
+}
+.nav-menu {
+	padding: 10px 0!important;
+}
+.nav-change :hover {
+	color: red;
+}
+.bg-web {
+	background-image: url("image/bgWeb.png");
+}
+.height-sline {
+	height: 650px;
+}
+.text-sline {
+	height: auto!important;
+	bottom: 200px!important;
+}
+.text-sline-secon {
+	bottom: 100px;
+	width: 80%!important;
+	padding: 15px;
+	height: auto!important;
+}
+.text-index {
+	font-size: 10px;
+	position: relative;
+	bottom: 10px;
+}
+.content-padding {
+	padding: 20px;
+	margin: auto;
+	padding: 15px 15px 0 15px;
+}
+.infomation-web {
+	padding: 10px;
+	font-size: 45px;
+	size: 20px;
+}
+.content-background {
+	background-color: black!important;
+}
+.icon-service {
+	padding: 10px;
+	font-size: 45px;
+	size: 20px;
+}
+.menu-coffee {
+	display: inline-block!important;
+}
+.icon-coffee {
+	padding: 10px;
+	font-size: 45px;
+}
+.product-content {
+	padding: 40px 40px 0 40px;
+}
+.icon-web {
+	font-size: 50px;
+	padding: 20px;
+}
+.font-footer {
+	font-size: initial;
+}
+.customers-background{
+	background-image: url(image/bg2.png);
+}
+.size-image-food {
+	width: 100px!important;
+	height: 100px!important;
+}
+.card-img-top {
+	width: 300px;
+	height: 220px;
+}
+a {
+	text-decoration: none !important;
+}
+.icon-signin {
+	font-size: 20px;
+	padding: 10px;
+}
+.bg-signin {
+	background-image: url("./khung-web/image/bgSignIn.png");
+}
+.bg-form-signin {
+	background-image: url("./khung-web/image/bgFormSignIn.png");
+}
+.overflow-content {
+	overflow: auto!important;
+}
+.bg-newyear {
+	background-image: url("image/happynewyear.png");
+}
+.height-menu-content {
+	height: 170px!important;
+}
+@media only screen and (max-width: 500px) {
+  .hiden-content-menu {
+   display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .change-content-menu {
+   	text-align: end;
+    margin: auto;
+    position: relative;
+    top: 27px!important;
+    width: max-content;
+  }
+}
