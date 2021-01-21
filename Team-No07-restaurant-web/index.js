@@ -37,3 +37,10 @@ document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('staff').innerText = formattedNumber
   })
 })
+function signup() {
+    var password = document.getElementById('pass').value;
+    var confirmpassword = document.getElementById('confirmpass').value;
+  if(pass != confirmpass){
+    document.getElementById("check").innerHTML = "mat khau ko giong nhau";
+  }
+}

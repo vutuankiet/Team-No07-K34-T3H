@@ -14,7 +14,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <link href="./css/style.css" rel="stylesheet">
     <script type="text/javascript" src="index.js" ></script>
 </head>
 <body>
@@ -41,10 +40,10 @@
 						<a class="nav-link text-light d-inline-block" href="index-about.html"><b><i class="far fa-address-card"></i> About</b></a>
 					</li>
 					<li class="nav-item mx-2" >
-						<a class="nav-link text-light d-inline-block" href="index-menu.html"><b><i class="fas fa-cart-plus"></i> Menu</b></a>
+						<a class="nav-link text-light d-inline-block" href="index-menu.html"><b><i class="fas fa-calendar-minus"></i> Menu</b></a>
 					</li>
 					<li class="nav-item mx-2" >
-						<a class="nav-link text-light d-inline-block" href="index-sign-in.html"><b><i class="fas fa-sign-in-alt"></i> Login</b></a>
+						<a class="nav-link text-light d-inline-block" href="index-sign-in.html"><b><i class="fas fa-user"></i> Login</b></a>
 					</li>
 					<li class="nav-item mx-2" >
 						<a class="nav-link text-light d-inline-block" href="index-sign-up.html"><b><i class="fas fa-sign-in-alt"></i> Sign up</b></a>
@@ -73,8 +72,8 @@
 					<h1 class="text-warning font-family">Welcome</h1>
 					<h3 class="text-light">READY TO SERVE YOU</h3>
 					<h5 class="text-light">Innovative and attractive restaurant serving hot, fresh and varied dishes.</h5>
-					<button type="button" class="btn btn-outline-light btn-lg">Order Now</button>
-					<button type="button" class="btn btn-dark btn-lg">Get View Menu</button>
+					<a href="index-menu.html"><button type="button" class="btn btn-outline-light btn-lg">Order Now</button></a>
+					<a href="index-menu.html"><button type="button" class="btn btn-dark btn-lg">Get View Menu</button></a>
 				</div>
 			</div>
 		    <div class="carousel-item">
@@ -93,10 +92,10 @@
 		      	<img class="w-100 height-sline" src="image/bg3.png"alt="image-sline-shop">
 				<div class="carousel-caption text-sline d-md-block">
 					<h1 class="text-warning font-family">Welcome</h1>
-					<h3 class="text-lightt">AMAZING TASTE & BEAUTIFUL PLACE</h3>
-					<h5 class="text-light">A small river named Duden flows by their place and supplies it with the necessary regelialia.</h3>
-					<button type="button" class="btn btn-outline-light btn-lg">Order Now</button>
-					<button type="button" class="btn btn-dark btn-lg">View Menu</button>
+					<h3 class="text-lightt">READY TO SERVE YOU</h3>
+					<h5 class="text-light">Innovative and attractive restaurant serving hot, fresh and varied dishes.</h3>
+					<a href="index-menu.html"><button type="button" class="btn btn-outline-light btn-lg">Order Now</button></a>
+					<a href="index-menu.html"><button type="button" class="btn btn-dark btn-lg">View Menu</button></a>
 				</div>
 			</div>
 		  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -131,12 +130,12 @@
 					<div class="form-row p-1 w-100">
 						<h1 class="text-light col-12">LOGIN NOW</h1>
 						<div class="form-group col-12 col-sm-12">
-							<label class="text-light" for="">User name*</label>
+							<label class="text-light" for="username">User name*</label>
 							<input class="form-control is-valid" type="text" name="Name" placeholder="Name" required>
 							<div class="invalid-feedback">Please choose a Name.</div>
 						</div>
 						<div class="form-group col-12 col-sm-12">
-							<label class="text-light" for="">Password*</label>
+							<label class="text-light" for="password">Password*</label>
 							<input class="form-control is-valid" type="password" name="Password" placeholder="Password" required>
 							<div class="invalid-feedback">Please choose a Password.</div>
 						</div>
@@ -147,7 +146,7 @@
 							<a href="index-sign-in.html">Register now?</a>
 						</div>
   						<div class="form-group col-12 col-sm-12 col-md-12 col-xl-12 p-1">
-    						<button type="submit" class="btn btn-outline-light btn-block">Appointment</button>
+    						<button type="submit" class="btn btn-outline-light btn-block">Login <i class="fas fa-sign-in-alt"></i></button>
   						</div>
 					</div>
 				</form>
@@ -167,7 +166,26 @@
 				<p class="text-warning text-right font-family">-Cofee VietNam-</p>
 			</div>
 		</div>
-		
+		<div class="container-fluid bg-warning w-100 content-padding">
+			<div class="row text-center mt-4">
+				<div class="col-xs-12 col-sm-6 col-md-4 ">
+					<p><span class="border border-dark icon-service"><i class="far fa-address-card"></i></span></p>
+					<h3>EASY TO ORDER</h3>
+					<p>A comprehensive store for digital and large-scale orders, online booking, POS, online payments, customer data collection, customer retention and marketing solutions.</p>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<p><span class="border border-dark icon-service"><i class="fas fa-shipping-fast"></i></span></p>	
+					<h3>FASTEST DELIVERY</h3>
+					<p>Quickly connect with the largest shipping companies in Vietnam and choose the fastest and cheapest shipping unit, customers can be assured of no worries.</p>
+				</div>
+				<div class="col-sm-12 col-md-4">
+					<p><span class="border border-dark icon-service"><i class="fas fa-coffee"></i></span></p>	
+					<h3>QUALITY COFFEE</h3>
+					<p>The quality of sweetness in coffee brings mellow and gentle taste, the freshness and perfection of the coffee bean brings satisfaction to customers..</p>
+				</div>
+			</div>	
+			<hr class="my-4">	
+		</div>
 		<div class="row content-background m-0">
 			<div class="col-12 col-sm-12 col-md-6 text-left content-background">
 				<h2 class="text-warning font-family">Discover</h2>
@@ -209,22 +227,22 @@
 	<div class="container-fluid w-100 nav-bg text-center p-5">
 		<div class="row">
 			<div class="col-6 col-sm-3">
-				<p><span class="text-warning border border-warning icon-coffee"><i size="20px;" class="fas fa-coffee"></i></span></p>
+				<p><span class="text-warning icon-coffee"><i class="fas fa-sitemap"></i></span></p>
 				<h3 class="text-warning" id="coffee-branches">100</h3>
 				<p class="text-light">Coffee Branches</p>
 			</div>
 			<div class="col-6 col-sm-3">
-				<p><span class="text-warning border border-warning icon-coffee"><i size="20px;" class="fas fa-coffee"></i></span></p>
+				<p><span class="text-warning icon-coffee"><i class="fas fa-award"></i></span></p>
 				<h3 class="text-warning" id="number-of-awards">85</h3>
 				<p class="text-light">Number of Awards</p>
 			</div>
 			<div class="col-6 col-sm-3">
-				<p><span class="text-warning border border-warning icon-coffee"><i size="20px;" class="fas fa-coffee"></i></span></p>
+				<p><span class="text-warning icon-coffee"><i class="fas fa-user-check"></i></span></p>
 				<h3 class="text-warning" id="happy-customer">10,567</h3>
 				<p class="text-light">Happy Customer</p>
 			</div>
 			<div class="col-6 col-sm-3">
-				<p><span class="text-warning border border-warning icon-coffee"><i size="20px;" class="fas fa-coffee"></i></span></p>
+				<p><span class="text-warning icon-coffee"><i class="fas fa-users-cog"></i></span></p>
 				<h3 class="text-warning" id="staff">900</h3>
 				<p class="text-light">Staff</p>
 			</div>
@@ -264,7 +282,7 @@
 				  	<div class="card-body">
 				    	<h5 class="card-title text-warning font-family">COFFEE CAPUCCINO</h5>
 				    	<p class="card-text">The sweet, creamy cheetah of the whipped cream is full of charm, the smooth milky foam on the mouth and finally some ice cubes to keep you refreshing summer day.</p>
-				    	<h5>$6.5</h5>
+				    	<h5>$6.50</h5>
 				    	<a href="#" class="btn btn-outline-warning">Buy Now</a>
 				  	</div>
 				</div>
@@ -287,6 +305,7 @@
 				<div class="col text-center .product-content">
 					<h1 class="text-warning font-family">Discover</h1>
 					<h1 class="text-white">MENU</h1>
+					<p class="text-light">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 				</div>
 			</div>
 			<div class="row d-md-flex">
@@ -393,7 +412,7 @@
 												<img class="card-img-top" src="image/cake2.png" alt="menu-cake">
 											  	<div class="card-body">
 											    	<h5 class="card-title text-warning font-family">Pizza Mini Ice Cream Stick</h5>
-											    	<p class="card-text">Pizza mini ice cream with strawberry flavor, delicious and strange</p>
+											    	<p class="card-text">Pizza mini ice cream with strawberry flavor, delicious and strange.</p>
 											    	<h5>$6.80</h5>
 											    	<a href="#" class="btn btn-outline-warning">Buy Now</a>
 											  	</div>
@@ -404,7 +423,7 @@
 												<img class="card-img-top" src="image/cake3.png" alt="menu-cake">
 											  	<div class="card-body">
 											    	<h5 class="card-title text-warning font-family">Sweet cream cake</h5>
-											    	<p class="card-text">With a soft crust aroma of rum, filled with sweet and sour strawberry cream</p>
+											    	<p class="card-text">With a soft crust aroma of rum, filled with sweet and sour strawberry cream.</p>
 											    	<h5>$5.90</h5>
 												   	<a href="#" class="btn btn-outline-warning">Buy Now</a>
 											 	</div>
@@ -423,26 +442,23 @@
 			<div class=" col-12 text-center p-4">
 				<h1 class="text-warning font-family">Testimony</h5>
 				<h1 class="text-white">CUSTOMERS SAYS</h1>
+				<p class="text-light">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3 text-white nav-bg align-self-sm-end p-3">
+			<div class="col-12 col-sm-6 col-md-3 col-lg-3 text-white nav-bg align-self-sm-end p-3">
 				<p>“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.”</p>
 				<h6 class="text-warning text-right font-family">-Lê Hồng Ngọc-</h6>
-				<p class="text-light text-right">Designer</p>
 			</div>
-			<div class="col-12 col-sm-12 col-md-4 col-lg-3 text-white nav-bg align-self-sm-end p-3">
+			<div class="col-12 col-sm-6 col-md-3 col-lg-3 text-white nav-bg align-self-sm-end p-3">
 				<p>“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name. ”</p>
 				<h6 class="text-warning text-right font-family">-Vũ Tuấn Kiệt-</h6>
-				<p class="text-light text-right">Designer</p>
 			</div>
-			<div class="col-12 col-sm-12 col-md-12 col-lg-3 text-white nav-bg align-self-sm-end p-3">
+			<div class="col-12 col-sm-6 col-md-3 col-lg-3 text-white nav-bg align-self-sm-end p-3">
 				<p>“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however.”</p>
 				<h6 class="text-warning text-right font-family">-Nguyễn Thế Vũ-</h6>
-				<p class="text-light text-right">Designer</p>
 			</div>
-			<div class="col-12 col-sm-12 col-md-12 col-lg-3 text-white nav-bg align-self-sm-end p-3">
+			<div class="col-12 col-sm-6 col-md-3 col-lg-3 text-white nav-bg align-self-sm-end p-3">
 				<p>“Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name. ”</p>
 				<h6 class="text-warning text-right font-family">-Bùi Văn Nghĩa-</h6>
-				<p class="text-light text-right">Designer</p>
 			</div>		
 		</div>
 		<hr class="my-4">
@@ -476,7 +492,7 @@
 				  	<div class="card-body">
 				    	<p class="card-title text-warning">Janu 22, 2021 <span><i class="far fa-comment-dots"></i></span> 3</p>
 				    	<a href="#" class="text-white" class="text-warning font-family">The Delicious Pizza</a>
-				    	<p class="text-secondary">Spaghetti made with fresh beef seafood combined with the sweet and sour taste of tomato sauce makes Traditional Y noodles attractive, attracting all diners..</p>
+				    	<p class="text-secondary">Spaghetti made with fresh beef seafood combined with the sweet and sour taste of tomato sauce makes Traditional Y noodles attractive, attracting all diners.</p>
 				  	</div>
 				</div>
 			</div>
@@ -511,7 +527,7 @@
         					</div>
 						</div>
 						<div class="form-group col-12">
-							<input class="form-control is-valid nav-bg text-white" type="tel" name="phone" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="Phone" required>
+							<input class="form-control is-valid nav-bg text-white" type="tel" name="phone" pattern="[0-9]{10}" placeholder="Phone" required>
 							<div class="invalid-feedback">Please choose a phone.
         					</div>
 						</div>
@@ -521,8 +537,7 @@
   						<div class="form-group col col-sm-6">
 	  						<div class="custom-control custom-checkbox mb-3">
 							    <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
-							    <label class="custom-control-label" for="customControlValidation1">Toi dong y</label>
-							    <div class="invalid-feedback">Example invalid feedback text</div>
+							    <label class="custom-control-label" for="customControlValidation1">I agree to <a class="link" href="">the Terms of use and Privacy Policy</a></label>
 							  </div>
 	  					</div>
 	  					<div class="form-group col col-sm-12">
@@ -539,7 +554,7 @@
 		<div class="row m-0 p-2">
 			<div class="col-12 col-md-6 col-sm-12 col-l-6 col-xl-3 p-3">
 				<h4>ABOUT US</h4>
-				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+				<p>Master Blend tells their culinary story and story through the menu, constantly innovating seasonal dishes. The restaurant won a Michelin star one week after it opened.</p>
 				<div class="text-center">
 					<a href="#" class="text-info icon-web"><span ><i class="fab fa-twitter"></i></span></a>
 					<a href="#" class="text-primary icon-web"><span><i class="fab fa-facebook-f"></i></span></a>
@@ -557,8 +572,8 @@
 					    	<div class="col-sm-8">
 					      		<div class="card-body">
 					        		<h6 class="card-title">Even the all-powerful Pointing has no control about</h6>
-					        		<p class="card-text"><i class="far fa-calendar-alt"></i> Sept 15, 2021 <i class="fas fa-user"></i> Amin</p>
-					        		<p><i class="far fa-comment-dots"></i> 19</p>
+					        		<p class="card-text text-light"><i class="far fa-calendar-alt text-warning"></i> Sept 15, 2021 <i class="fas fa-user text-warning"></i> Amin</p>
+					        		<p class="text-light"><i class="far fa-comment-dots text-warning"></i> 19</p>
 						      	</div>
 						    </div>
 						</div>
@@ -575,7 +590,7 @@
 			</div>
 			<div class="col-12 col-md-6 col-sm-6 col-lg-6 col-xl-3 p-2">
 				<h4>HAVE A QUESTIONS?</h4>
-				<h5><span class="text-warning"><i size="16px" class="fas fa-map-marker-alt"></i></span>Place</h5>
+				<h5 class="text-warning"><span class="text-warning"><i size="16px" class="fas fa-map-marker-alt"></i></span> lace</h5>
 				<p>128A, Ho Tung Mau, Mai Dich, Cau Giay, Ha Noi, Viet Nam</p>
 				<h5><a class="text-warning" href="#"><span><i size="16px" class="fas fa-phone-alt"></i></span> 0336 704 581</a></h5>
 				<h5><a class="text-warning"href="#"><span><i size="16px" class="far fa-envelope"></i></span> vutuankiet2411@gmail.com</a></h5>

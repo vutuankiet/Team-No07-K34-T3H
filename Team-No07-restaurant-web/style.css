@@ -2,7 +2,7 @@
 	font-family: 'Dancing Script', cursive;
 }
 .nav-bg {
-    background-color: #00000054!important;
+    background-color: #000000c2!important;
 }
 .nav-menu {
 	padding: 10px 0!important;
@@ -89,4 +89,27 @@ a {
 }
 .bg-form-signin {
 	background-image: url("./khung-web/image/bgFormSignIn.png");
+}
+.overflow-content {
+	overflow: auto!important;
+}
+.bg-newyear {
+	background-image: url("image/happynewyear.png");
+}
+.height-menu-content {
+	height: 170px!important;
+}
+@media only screen and (max-width: 500px) {
+  .hiden-content-menu {
+   display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .change-content-menu {
+   	text-align: end;
+    margin: auto;
+    position: relative;
+    top: 27px!important;
+    width: max-content;
+  }
 }
