@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- Import Boostrap css, js, font awesome here -->
-	<title>Login-Master Blend</title>
+	<title>Home-Master Blend</title>
 	<link rel="shortcut icon" href="image/logoCofee.png" type="image/x-icon">
   	<meta charset="utf-8">
   	<link rel="stylesheet" type="text/css" href="style.css">
@@ -14,7 +14,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="index.js"></script>
 </head>
 <body>
 <div class="bg-web">
@@ -30,23 +29,23 @@
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto nav-change">
-					<li class="nav-item mx-2">
-						<a class="nav-link text-light d-inline-block" href="index.html"><b><i class="fas fa-home"></i> Home</b></a>
-					</li>
-					<li class="nav-item mx-2">
-						<a class="nav-link text-light d-inline-block" href="index-services.html"><b><i class="fas fa-toolbox"></i> Services</b></a>
-					</li>
-					<li class="nav-item mx-2">
-						<a class="nav-link text-light d-inline-block" href="index-about.html"><b><i class="fas fa-users"></i> About</b></a>
-					</li>
-					<li class="nav-item mx-2">
-						<a class="nav-link text-light d-inline-block" href="index-menu.html"><b><i class="fas fa-calendar-minus"></i> Menu</b></a>
+					<li class="nav-item mx-2"> 
+						<a class="nav-link nav-item-active active d-inline-block" href="home.html"><b><i class="fas fa-home"></i> Home</b></a>
 					</li>
 					<li class="nav-item mx-2" >
-						<a class="nav-link nav-item-active active d-inline-block" href="index-login.html"><b><i class="fas fa-user"></i> Login</b></a>
+						<a class="nav-link text-light d-inline-block" href="services.html"><b><i class="fas fa-toolbox"></i> Services</b></a>
 					</li>
 					<li class="nav-item mx-2" >
-						<a class="nav-link text-light d-inline-block" href="index-signup.html"><b><i class="fas fa-sign-in-alt"></i> Sign up</b></a>
+						<a class="nav-link text-light d-inline-block" href="about.html"><b><i class="fas fa-users"></i> About</b></a>
+					</li>
+					<li class="nav-item mx-2" >
+						<a class="nav-link text-light d-inline-block" href="menu.html"><b><i class="fas fa-calendar-minus"></i> Menu</b></a>
+					</li>
+					<li class="nav-item mx-2" >
+						<a class="nav-link text-light d-inline-block" href="login.html"><b><i class="fas fa-user"></i> Login</b></a>
+					</li>
+					<li class="nav-item mx-2" >
+						<a class="nav-link text-light d-inline-block" href="signup.html"><b><i class="fas fa-sign-in-alt"></i> Sign up</b></a>
 					</li>
 					<li class="nav-item mx-2">
 						<form class="form-inline form-group m-0" action="#">
@@ -70,11 +69,10 @@
 				<img class="w-100 height-sline" src="image/bg1.png"alt="image-sline-shop">
 				<div class="carousel-caption text-sline d-md-block">
 					<h1 class="text-warning font-family">Welcome</h1>
-					<h2 class="text-light font-family">Sign-in</h2>
 					<h3 class="text-light">READY TO SERVE YOU</h3>
 					<h5 class="text-light">Innovative and attractive restaurant serving hot, fresh and varied dishes.</h5>
-					<a href="index-menu.html"><button type="button" class="btn btn-outline-light btn-lg">Order Now</button></a>
-					<a href="index-menu.html"><button type="button" class="btn btn-dark btn-lg">Get View Menu</button></a>
+					<a href="menu.html"><button type="button" class="btn btn-outline-light btn-lg">Order Now</button></a>
+					<a href="menu.html"><button type="button" class="btn btn-dark btn-lg">Get View Menu</button></a>
 				</div>
 			</div>
 		    <div class="carousel-item">
@@ -95,8 +93,8 @@
 					<h1 class="text-warning font-family">Welcome</h1>
 					<h3 class="text-lightt">READY TO SERVE YOU</h3>
 					<h5 class="text-light">Innovative and attractive restaurant serving hot, fresh and varied dishes.</h3>
-					<a href="index-menu.html"><button type="button" class="btn btn-outline-light btn-lg">Order Now</button></a>
-					<a href="index-menu.html"><button type="button" class="btn btn-dark btn-lg">View Menu</button></a>
+					<a href="menu.html"><button type="button" class="btn btn-outline-light btn-lg">Order Now</button></a>
+					<a href="menu.html"><button type="button" class="btn btn-dark btn-lg">View Menu</button></a>
 				</div>
 			</div>
 		  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -109,47 +107,46 @@
 		  	</a>
 		</div>
 	</div>
-
-<div class="container-fluid bg-newyear">
-    <div class="row">
-		<div class="col-12 col-md-5 col-sm-6 bg-outline-light p-4 background-hidden m-auto">
-			<form class="was-validated" action="#" method="post">
-				<div class="form-row">
-					<h1 class="text-light col-12 text-center"><i class="fas fa-id-card"></i> SIGN IN <i class="fas fa-id-card"></i></h1>
-					<div class="form-group col-12">
-						<label for="userName" class="text-light"><h6>Enter your Username:</h6></label>
-						<input id="userName" class="form-control is-valid background-hidden text-white" type="text" name="username" placeholder="First Name" required>
+	<div class="container-fluid bg-newyear">
+		<div class="row">
+			<div class="col-12 col-md-5 col-sm-6 bg-outline-light p-4 background-hidden m-auto">
+				<form class="was-validated" action="#" method="post">
+					<div class="form-row">
+						<h1 class="text-light col-12 text-center"><i class="fas fa-id-card"></i> SIGN IN <i class="fas fa-id-card"></i></h1>
+						<div class="form-group col-12">
+							<label for="userName" class="text-light"><h6>Enter your Username:</h6></label>
+							<input id="userName" class="form-control is-valid background-hidden text-white" type="text" name="username" placeholder="First Name" required>
+						</div>
+						<div class="form-group col-12">
+							<label for="password" class="text-light"><h6>Enter your Password:</h6></label>
+							<input id="password" class="form-control is-valid background-hidden text-white" type="password" name="password" placeholder="Last Name" required>
+						</div>
+						<div class="form-group col-6 col-sm-6">
+							<a href="#">Forgot password?</a>
+						</div>
+						<div class="form-group col-6 col-sm-6 text-right">
+							<a href="signup.html">Register now?</a>
+						</div>
+						<div class="form-group col-12">
+							<button type="submit" class="btn btn-outline-light btn-block">SIGN IN <i class="fas fa-sign-in-alt"></i></button>
+						</div>
+						<div class="form-group col-12 text-center text-light">
+							<h6>--- OR ---</h6>
+						</div>
+						<div class="col-4">
+							<button class="btn btn-outline-light btn-block"><a href="#" class="text-info btn-block"><i class="fab fa-twitter"></i></a></button>
+						</div>
+						<div class="col-4">
+							<button class="btn btn-outline-light btn-block"><a href="#" class="text-primary btn-block"><i class="fab fa-facebook-f"></i></a></button>
+						</div>
+						<div class="col-4">
+							<button class="btn btn-outline-light btn-block"><a href="#" class="text-danger btn-block"><i class="fab fa-instagram"></i></a></button>
+						</div>
 					</div>
-					<div class="form-group col-12">
-						<label for="password" class="text-light"><h6>Enter your Password:</h6></label>
-						<input id="password" class="form-control is-valid background-hidden text-white" type="password" name="password" placeholder="Last Name" required>
-					</div>
-					<div class="form-group col-6 col-sm-6">
-						<a href="#">Forgot password?</a>
-					</div>
-					<div class="form-group col-6 col-sm-6 text-right">
-						<a href="index-signup.html">Register now?</a>
-					</div>
-					<div class="form-group col-12">
-						<button type="submit" class="btn btn-outline-light btn-block">SIGN IN <i class="fas fa-sign-in-alt"></i></button>
-					</div>
-					<div class="form-group col-12 text-center text-light">
-						<h6>--- OR ---</h6>
-					</div>
-					<div class="col-4">
-						<button class="btn btn-outline-light btn-block"><a href="#" class="text-info btn-block"><i class="fab fa-twitter"></i></a></button>
-					</div>
-					<div class="col-4">
-						<button class="btn btn-outline-light btn-block"><a href="#" class="text-primary btn-block"><i class="fab fa-facebook-f"></i></a></button>
-					</div>
-					<div class="col-4">
-						<button class="btn btn-outline-light btn-block"><a href="#" class="text-danger btn-block"><i class="fab fa-instagram"></i></a></button>
-					</div>
-				</div>
-			</form>
+				</form>
+			</div>
 		</div>
 	</div>
-</div>
 </div>
 <footer>
 	<div class="bg-web text-light">
