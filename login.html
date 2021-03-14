@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- Import Boostrap css, js, font awesome here -->
-	<title>Home-Master Blend</title>
+	<title>Login-Master Blend</title>
 	<link rel="shortcut icon" href="image/logoCofee.png" type="image/x-icon">
   	<meta charset="utf-8">
   	<link rel="stylesheet" type="text/css" href="style.css">
@@ -16,6 +16,30 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+	window.fbAsyncInit = function () {
+		FB.init({
+			xfbml: true,
+			version: 'v10.0'
+		});
+	};
+
+	(function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s);
+		js.id = id;
+		js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your Chat Plugin code -->
+<div class="fb-customerchat"
+	 attribution="setup_tool"
+	 page_id="101657632010860">
+</div>
 <div class="bg-web">
 <!-- Navigation -->
 	<nav class="navbar navbar-expand-md navbar-light content-background sticky-top">
@@ -58,11 +82,11 @@
 		</div>
 	</nav>
 <!-- Carousel -->
-	<div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+	<div id="carousel" class="carousel slide " data-ride="carousel">
 		<ol class="carousel-indicators">
-		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+		    <li data-target="#carousel" data-slide-to="1"></li>
+		    <li data-target="#carousel" data-slide-to="2"></li>
 		</ol>
 		<div class="carousel-inner">
 		    <div class="carousel-item active">
@@ -88,7 +112,7 @@
 				</div>
 		    </div>
 		    <div class="carousel-item">
-		      	<img class="w-100 height-sline" src="image/bg3.png"alt="image-sline-shop">
+		      	<img class="w-100 height-sline" src="image/bg3.png" alt="image-sline-shop">
 				<div class="carousel-caption text-sline d-md-block">
 					<h1 class="text-warning font-family">Welcome</h1>
 					<h3 class="text-lightt">READY TO SERVE YOU</h3>
@@ -97,11 +121,11 @@
 					<a href="menu.html"><button type="button" class="btn btn-dark btn-lg">View Menu</button></a>
 				</div>
 			</div>
-		  	<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		  	<a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
 		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Previous</span>
 		  	</a>
-		  	<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		  	<a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
 		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
 		    <span class="sr-only">Next</span>
 		  	</a>
@@ -202,3 +226,4 @@
 </footer>
 </body>
 </html>	
+
