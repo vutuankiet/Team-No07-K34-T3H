@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- Import Boostrap css, js, font awesome here -->
-	<title>Services-Master Blend</title>
+	<title>Home-Master Blend</title>
 	<link rel="shortcut icon" href="image/logoCofee.png" type="image/x-icon">
   	<meta charset="utf-8">
   	<link rel="stylesheet" type="text/css" href="style.css">
@@ -190,28 +190,37 @@
 					<div class="form-row">
 						<h3 class="text-light col-12">Payment table*</h3>
 						<hr class="my-4">
-						<div class="form-group col-12 col-sm-6">
-							<div class="form-group col-12 col-sm-12">
+							<div class="form-group col-12 col-sm-6 col-md-6 col-lg-6">
 								<label class="text-light" for="#">Bank account name*</label>
-								<input class="form-control is-valid background-hidden text-white" type="text" name="firstName" placeholder="Bank account name" required>
+								<input class="form-control is-valid background-hidden text-white" type="text" name="nameBanking" placeholder="Bank account name" required>
 								<div class="invalid-feedback">Please choose a Bank account name.
 		        				</div>
 							</div>
-							<div class="form-group col col-sm-12">
+							<div class="form-group col-12 col-sm-6 col-md-6 col-lg-6">
 								<label class="text-light" for="#">Bank account number*</label>
-								<input class="form-control is-valid background-hidden text-white" type="number" name="lastName" placeholder="Bank account number" required>
+								<input class="form-control is-valid background-hidden text-white" type="number" name="numberBanking" placeholder="Bank account number" required>
 								<div class="invalid-feedback">Please choose a Bank account number.
 		       					</div>
 							</div>
-						</div>
-						<div class="form-group col-12 col-sm-6">
-							<div class="form-group col col-sm-12">
+							<div class="form-group col-12 col-sm-6 col-md-6 col-lg-6">
+								<label class="text-light" for="#">Password banking*</label>
+								<input class="form-control is-valid background-hidden text-white" type="password" name="PasswordBanking" placeholder="Password banking" required>
+								<div class="invalid-feedback">Please choose a Password banking.
+								</div>
+							</div>
+							<div class="form-group col-12 col-sm-6 col-md-6 col-lg-6">
+								<label class="text-light" for="#">Email*</label>
+								<input class="form-control is-valid background-hidden text-white" type="email" name="email" placeholder="Email" required>
+								<div class="invalid-feedback">Please choose a Email.
+								</div>
+							</div>
+							<div class="form-group col-12 col-sm-6 col-md-6 col-lg-6">
 								<label class="text-light" for="#">Enter your phone number*</label>
-								<input class="form-control is-valid background-hidden text-white" type="tel" name="lastName" placeholder="Bank account number" required>
+								<input class="form-control is-valid background-hidden text-white" type="tel" name="phone" placeholder="Bank account number" required>
 								<div class="invalid-feedback">Please choose a Phone.
 		       					</div>
 							</div>
-							<div class="form-group col col-sm-12">
+							<div class="form-group col-12 col-sm-6 col-md-6 col-lg-6">
 							    <label for="bank" class="text-light"><h6>Choose the payment bank*</h6></label>
 								<input id="bank" class="form-control is-valid background-hidden text-white" list="banking" name="bank" placeholder="Choose the payment bank" required>
 								<datalist id="banking">
@@ -229,7 +238,6 @@
 								<div class="invalid-feedback">Please choose a payment bank.
 		        				</div>
 							</div>
-						</div>
 						<div class="form-group col-12 col-sm-12">
 		  					<div class="custom-control custom-checkbox mb-3">
 							    <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
@@ -346,3 +354,4 @@
 </script>
 </body>
 </html>	
+
