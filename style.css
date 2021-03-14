@@ -18,6 +18,7 @@
 }
 .height-sline {
 	height: 650px;
+    object-fit: cover;
 }
 .text-sline {
 	height: auto!important;
