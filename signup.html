@@ -134,7 +134,7 @@
 	<div class="container-fluid bg-web">
 		<div class="row bg-newyear">  
 			<div class="col-12 col-md-6 col-sm-6 bg-outline-light py-5 m-auto background-hidden">
-				<form class="was-validated" action="#" method="post">
+				<form class="was-validated" action="#" method="post" onsubmit="return checkSignUp()">
 					<div class="form-row">
 						<h1 class="text-light col-12 text-center"><i class="fas fa-info-circle"></i> REGISTRATION INFORMATION <i class="fas fa-info-circle"></i></h1>
 						<div class="form-group col-12 text-center text-light"><i class="fas fa-angle-double-down"></i></div>
@@ -267,14 +267,15 @@
 	</div>
 </footer>
 <script>
-	function signup() {
+	function checkSignUp() {
 		var pass = document.getElementById('password').value;
 		var confirmpass = document.getElementById('confirmpassword').value;
-	  if(pass != confirmpass){
-		document.getElementById("checkpass").innerHTML = "Password incorrect!";
-	  }
-	  if(pass == confirmpass){
-	  }
+		if(pass != confirmpass){
+			document.getElementById("checkpass").innerHTML = "Password incorrect!";
+			return false;
+		} else{
+	  		return true;
+		}
 	}
 </script>
 </body>
